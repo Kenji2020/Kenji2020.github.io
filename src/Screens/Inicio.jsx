@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css'
 import Typewriter from "typewriter-effect";
+import { Carrusel } from '../Components/Carousel/Carrusel';
 export const Inicio = () => {
   return (
     <div>
@@ -26,9 +27,11 @@ export const Inicio = () => {
                 <span>Me gusta escribir código</span><span className="contenedor">_</span>
                 <br></br>
                 <h1><span className='auto-type'></span></h1>
-                
+              
                 <br></br>
             </p>
-    </div>
+            
+            <Carrusel/>
+      </div>
   )
 }
