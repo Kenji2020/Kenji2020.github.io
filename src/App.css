@@ -76,3 +76,12 @@
   text-align: center;
   margin-top: 50px;
 }
+.animacion{
+  background-color: teal;
+  animation: typing 1s steps(10, end) infinite;
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+}

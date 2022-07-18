@@ -20,7 +20,7 @@ export const Proyectos = () => {
       <Card.Img variant="top" src={imagenSaludMental} />
       <Card.Body>
         <Card.Title>Proyecto salud mental</Card.Title>
-        <Proyecto name = "Más información" Title = "Este proyecto da a reflejar mi capacidad con React (a pesar de ser un proyecto bastante simple)" body="Este proyecto consistió en una aplicación móvil que su objetivo principal era ayudar a la gente permitiéndoles el desahogo a través de publicaciones o de lectura de artículos que podían subir cuentas especializadas las cuales estaban en una sección de la base de datos distinta siendo éstas cuentas de psicólogos. Esta aplicación fue hecha en React Native y con Firebase" imagencita = {imagenSaludMental} url="https://github.com/Kenji2020/App_Clean"/>
+        <Proyecto name = "Más información" Title = "Este proyecto da a reflejar mi capacidad con React" body="Este proyecto consistió en una aplicación móvil que su objetivo principal era ayudar a la gente permitiéndoles el desahogo a través de publicaciones o de lectura de artículos que podían subir cuentas especializadas las cuales estaban en una sección de la base de datos distinta siendo éstas cuentas de psicólogos. Esta aplicación fue hecha en React Native y con Firebase" imagencita = {imagenSaludMental} url="https://github.com/Kenji2020/App_Clean"/>
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem' }}  className="m-3">
