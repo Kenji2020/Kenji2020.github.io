@@ -20,6 +20,9 @@ export const Conocimientos = () => {
                 <br></br>
                 <a href="https://www.udemy.com/certificate/UC-932ebe12-0aeb-4e27-9300-f2ee3f940e5a/">Certificado de Bootcamp de Udemy Full-stack</a>
                 <br></br>
+                <br></br>
+                <a href="https://www.udemy.com/certificate/UC-eec13402-4316-4c85-9f29-c5772e2a5ea3/">Certificado de Flask</a>
+                <br></br>
             </p>
     </div>
   )
