@@ -3,6 +3,7 @@ import { Proyecto } from '../Components/proyectos/Proyecto'
 import imagenSaludMental from '../img/saludMental.jpg'
 import toDoList from '../img/toDoList.jpg'
 import Breaking_Bad from '../img/Breaking_Bad.jpg'
+import goku from '../img/goku.jpg'
 import ecommerce from '../img/ecommerce.jpg'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card';
@@ -42,6 +43,13 @@ export const Proyectos = () => {
       <Card.Body>
         <Card.Title>ecommerce</Card.Title>
         <Proyecto name = "Más información" Title = "Este proyecto da a reflejar mis capacidades de React y CSS, además del trabajo en equipo, ya que fue un proyecto en conjunto con un amigo" body="Este proyecto fue un ecommerce hecho con React y firebase que consistió en una aplicación web para la venta de productos, es un proyecto de nivel trainee-junior, ya que es bastante simple a primera vista, pero el código es algo más complejo de lo que parece." imagencita = {imagenSaludMental} url="https://github.com/Kenji2020/ecommerce"/>
+      </Card.Body>
+    </Card>
+    <Card style={{ width: '18rem' }}  className="m-3">
+      <Card.Img variant="top" src={goku} />
+      <Card.Body>
+        <Card.Title>Proyecto de gifs</Card.Title>
+        <Proyecto name = "Más información" Title = "Este es mi primer proyecto en Angular, mide mis primeros pasos en este framework" body="Es un proyecto bastante simple el cual consume una API y de Gifs que mediante una busqueda muestra 10 gifs relacionados con esa busqueda." imagencita = {goku} url="https://github.com/Kenji2020/AppDeGifs"/>
       </Card.Body>
     </Card>
     </Col>
@@ -102,6 +110,19 @@ export const Proyectos = () => {
                             link del repositorio</a>
                         <p>
                             Este proyecto mide la capacidad de manejar una api con React y CSS.
+                        </p>
+                    </div>
+                </div>
+                <div className="column">
+                    <div className="card">
+                        <h3 className="React">Proyecto de gifs</h3>
+                        <p>
+                        Es un proyecto bastante simple el cual consume una API y de Gifs que mediante una busqueda muestra 10 gifs relacionados con esa busqueda.
+                        </p>
+                        <a className='square' href="https://github.com/Kenji2020/AppDeGifs">Haz click aquí para ir al
+                            link del repositorio</a>
+                        <p>
+                        Este es mi primer proyecto en Angular, mide mis primeros pasos en este framework
                         </p>
                     </div>
                 </div>
